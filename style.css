@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100dvh;
+}
+
+img{
+  width: 220px;
+  height: 70px;
+}
+
+nav.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav.container ul {
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+  gap: 100px;
+  list-style: none;
+}
+
+nav.container ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav.container div.button button {
+  background: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+nav.container div.button button#masuk {
+  color: white;
+  background-color: palevioletred;
+  border: px;
+  color:white;
+  width: 70px;
+}
+
+nav.container div.button button#daftar {
+  color: white;
+  background-color: palevioletred;
+  border: px;
+  color:white;
+  width: 70px;
+}
